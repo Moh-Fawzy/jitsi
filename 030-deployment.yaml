@@ -4,8 +4,7 @@ metadata:
   labels:
     k8s-app: jitsi
   name: jitsi
-  namespace: jitsi
-spec:
+ spec:
   template:
     metadata:
       labels:
