@@ -1,0 +1,9 @@
+namespace: jitsi
+bases:
+- github.com/Moh-Fawzy/jitsi/doc/kustomize
+
+resources:
+- 041-ingress.yaml
+
+patchesStrategicMerge:
+- 030-deployment.yaml
