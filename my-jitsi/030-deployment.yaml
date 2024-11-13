@@ -15,11 +15,11 @@ spec:
         - name: web
           env:
             - name: PUBLIC_URL
-              value: "https://jitsi.foo.com"
+              value: "http://jitsi.foo.com"
 
         - name: prosody
           env:
             - name: PUBLIC_URL
-              value: "https://jitsi.foo.com"
+              value: "http://jitsi.foo.com"
 
 
