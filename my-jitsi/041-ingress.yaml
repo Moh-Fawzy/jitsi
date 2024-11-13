@@ -16,8 +16,8 @@ spec:
    # - jitsi.foo.com
  #   secretName: tls-jitsi
   rules:
-  - host: jitsi.foo.com
-    http:
+  #- host: jitsi.foo.com - remember to remove - on front of http
+  -  http:
       paths:
       - path: /
         pathType: Prefix
