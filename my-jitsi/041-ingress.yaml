@@ -14,7 +14,7 @@ spec:
   tls:
   - hosts:
     - jitsi.foo.com
-    secretName: tls-jitsi
+ #   secretName: tls-jitsi
   rules:
   - host: jitsi.foo.com
     http:
