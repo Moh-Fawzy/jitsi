@@ -11,9 +11,9 @@ metadata:
   annotations:
   #  cert-manager.io/cluster-issuer: "letsencrypt-prod"
 spec:
-  tls:
-  - hosts:
-    - jitsi.foo.com
+  #tls:
+  #- hosts:
+   # - jitsi.foo.com
  #   secretName: tls-jitsi
   rules:
   - host: jitsi.foo.com
